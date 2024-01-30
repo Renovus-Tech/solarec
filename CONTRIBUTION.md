@@ -1,5 +1,5 @@
 # Contributing to Renovus Solarec
-
+ 
 Welcome to Renovus Solarec! We appreciate your interest in contributing to our open-source project. Whether you're a developer, designer, tester, or enthusiast, there are various ways you can contribute to the project's success.
 
 Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
