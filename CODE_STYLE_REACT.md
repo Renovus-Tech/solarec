@@ -4,15 +4,15 @@ This document outlines the React code style and best practices to be followed in
 
 ## Table of Contents
 
-1.- [Component Structure](#component-structure)
-2.- [Use meaningful names for components](#use-meaningful-names-for-components)
-3.- [JSX Formatting](#jsx-formatting)
-4.- [State and Props](#state-and-props)
-5.- [CSS Styling](#css-styling)
-6.- [Documentation](#documentation)
-7.- [State Management](#state-management)
-8.- [Testing](#testing)
-9.- [React Hooks](#-react-hooks)
+1. [Component Structure](#component-structure)
+2. [Use meaningful names for components](#use-meaningful-names-for-components)
+3. [JSX Formatting](#jsx-formatting)
+4. [State and Props](#state-and-props)
+5. [CSS Styling](#css-styling)
+6. [Documentation](#documentation)
+7. [State Management](#state-management)
+8. [Testing](#testing)
+9. [React Hooks](#-react-hooks)
 
 
 ## Component Structure
