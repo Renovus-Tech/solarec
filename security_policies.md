@@ -1,8 +1,8 @@
-# Security Policies
+# Renovus Solarec Security Policies
 
 ## Reporting Security Issues
 
-If you discover a security issue in Renovus Solarec, please follow these guidelines to report it to the project team responsibly.
+If you discover a security issue in any of Renovus Solarec repositories / codes, please follow these guidelines to report it to the project team responsibly.
 
 ### Reporting Confidentially
 

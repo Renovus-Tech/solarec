@@ -1,6 +1,20 @@
 # Code Style Guidelines for Python
 
-## Indentation and Whitespace:
+This document outlines the React code style and best practices to be followed in the [Renovus Solarec Python]((https://github.com/Renovus-Tech/solarec-python)) repository. The repository might have its own code styles, but it follow these guid as base.
+
+## Table of Contents
+
+1.- [Indentation and Whitespace](#identation-and-whitespace)
+2.- [Imports](#imports)
+3.- [Naming Conventions](#naming-conventions)
+4.- [Comments and Docstrings](#comments-and-docstrings)
+5.- [Spacing in Expressions and Statements](#spacing-in-expressions-and-statements)
+6.- [Limitation on Assignments](#limitation-on-assigments)
+7.- [Testing](#-testing)
+8.- [Error Handling](#error-handling)
+9.- [Virtual Environment](#virtual-environment)
+
+## Indentation and Whitespace
 
 Use 4 spaces for indentation.
 Avoid tabs; use spaces consistently.

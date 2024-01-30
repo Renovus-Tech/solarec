@@ -1,6 +1,6 @@
 # SQL Code Style Guide
 
-This document outlines the SQL code style and best practices to be followed in the [Project Name] repository. Consistency in SQL code style enhances readability and maintainability.
+This document outlines the SQL code style and best practices to be followed in the [Renovus Solarec DB]((https://github.com/Renovus-Tech/solarec-db)) repository. Consistency in SQL code style enhances readability and maintainability. The repository might have its own code styles, depending of the database engine, but they follow these guid as base.
 
 ## Table of Contents
 
@@ -19,6 +19,8 @@ This document outlines the SQL code style and best practices to be followed in t
 
 - Use clear, descriptive names for tables, columns, and other database objects.
 - Avoid using reserved keywords as identifiers; if necessary, enclose them in double quotes (e.g., `"select"`).
+- Use uppercase for SQL language word
+- Use lower case for tables / columns / datatypes / names
 
 ```sql
 -- Good

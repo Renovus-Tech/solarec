@@ -1,4 +1,4 @@
-# Contributor Covenant Code of Conduct
+# Renovus Solarec Contributor Covenant Code of Conduct
 
 ## Our Pledge
 

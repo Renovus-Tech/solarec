@@ -1,4 +1,7 @@
 ## Java Coding Standards
+
+This document outlines the React code style and best practices to be followed in the [Renovus Solarec Java]((https://github.com/Renovus-Tech/solarec-java)) repository. The repository might have its own code styles, but it follow these guid as base.
+
 Use meaningful variable and method names.
 Follow Java naming conventions for classes, methods, and variables.
 Avoid redundant comments; write self-explanatory code.

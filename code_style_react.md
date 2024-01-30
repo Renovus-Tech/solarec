@@ -1,5 +1,20 @@
 # Code Style Guidelines for React
 
+This document outlines the React code style and best practices to be followed in the [Renovus Solarec React]((https://github.com/Renovus-Tech/solarec-react)) repository. The repository might have its own code styles, but it follow these guid as base.
+
+## Table of Contents
+
+1.- [Component Structure](#component-structure)
+2.- [Use meaningful names for components](#use-meaningful-names-for-components)
+3.- [JSX Formatting](#jsx-formatting)
+4.- [State and Props](#state-and-props)
+5.- [CSS Styling](#css-styling)
+6.- [Documentation](#documentation)
+7.- [State Management](#state-management)
+8.- [Testing](#testing)
+9.- [React Hooks](#-react-hooks)
+
+
 ## Component Structure
 
 Organize components into a well-defined directory structure (e.g., src/components).
@@ -7,7 +22,7 @@ Follow the Single Responsibility Principle: Each component should have a single 
 Use functional components by default and only use class components when necessary.
 Naming Conventions:
 
-## Use meaningful names for components.
+## Use meaningful names for components
 Component names should be written in PascalCase.
 File names should match the component name.
 
@@ -32,7 +47,7 @@ Use parentheses for multiline JSX.
 />
 ```
 
-## State and Props:
+## State and Props
 Destructure props when used in functional components.
 Avoid modifying state directly; use setState for state changes.
 Use prop-types to document and enforce prop types.
@@ -44,11 +59,11 @@ function MyComponent({ prop1, prop2 }) {
 }
 ```
 
-## CSS Styling:
+## CSS Styling
 Use a consistent CSS naming convention (e.g., BEM).
 Consider using CSS-in-JS libraries or styled-components for component styling.
 
-## Documentation:
+## Documentation
 Include a brief description and usage example for each component.
 Clearly document props and their types.
 Include any necessary setup or configuration details in the documentation.
@@ -68,15 +83,15 @@ function UserProfile({ username }) {
 }
 ```
 
-## State Management:
+## State Management
 Prefer using state management libraries like Redux for global state.
 Keep local component state for simple, local interactions.
 
-## Testing:
+## Testing
 Write unit tests for components using testing libraries like Jest and React Testing Library.
 Follow naming conventions for test files (e.g., MyComponent.test.js).
 
-## React Hooks:
+## React Hooks
 Use hooks like useState, useEffect, and useContext as appropriate.
 Avoid using hooks conditionally; they should be called at the top level of a functional component.
 

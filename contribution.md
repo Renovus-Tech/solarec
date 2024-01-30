@@ -2,6 +2,10 @@
 
 Welcome to Renovus Solarec! We appreciate your interest in contributing to our open-source project. Whether you're a developer, designer, tester, or enthusiast, there are various ways you can contribute to the project's success.
 
+Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
+
+Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue or assessing patches and features.
+
 ## Ways to Contribute
 
 1. **Report Issues:**
@@ -18,6 +22,17 @@ Welcome to Renovus Solarec! We appreciate your interest in contributing to our o
 
 5. **Share Ideas:**
    - Engage in discussions, propose new features, or share your ideas as an issue following our [New Feature Request Tempalte](new_feature_request.md). Your input helps shape the project's future.
+
+## Where to contribute
+
+Currently the Renovus Solarec proyect is divided in the following repositories:
+
+- [Backend (Java)](https://github.com/Renovus-Tech/solarec-java)
+- [Calculations (Python)](https://github.com/Renovus-Tech/solarec-python)
+- [Front-End (React)](https://github.com/Renovus-Tech/solarec-react)
+- [Database (SQL)](https://github.com/Renovus-Tech/solarec-db)
+
+Depending on you expertice and preference you can contribute in one or many of repositories.
 
 ## Getting Started
 
@@ -56,7 +71,7 @@ Welcome to Renovus Solarec! We appreciate your interest in contributing to our o
 
 ## Code of Conduct
 
-Before contributing, please review our [Code of Conduct](code_of_conduct.md). We strive to maintain a positive and inclusive community.
+Before contributing, please review our [Code of Conduct](CODE_OF_CONDUCT.md). We strive to maintain a positive and inclusive community.
 
 ## Need Help?
 
