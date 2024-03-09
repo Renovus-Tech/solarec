@@ -4,3 +4,24 @@
 
 layout: home
 ---
+
+Wellcome to **Renvus Solarec** project, proudly selected by **[UNICEF Venture Fund’s First Cohort for Climate Action](https://www.unicef.org/innovation/venturefund/climate-action-cohort)**.
+
+In these site you will find the required information abount the proyect. Feel free to navigate and discover more information of the projec in the different repositories that create the Solarec application:
+
+- [https://github.com/Renovus-Tech/solarec](https://github.com/Renovus-Tech/solarec)
+- [https://github.com/Renovus-Tech/solarec-react](https://github.com/Renovus-Tech/solarec-react)
+- [https://github.com/Renovus-Tech/solarec-java](https://github.com/Renovus-Tech/solarec-java)
+- [https://github.com/Renovus-Tech/solarec-db](https://github.com/Renovus-Tech/solarec-db)
+- [https://github.com/Renovus-Tech/solarec-python](https://github.com/Renovus-Tech/solarec-python)
+
+The previous projects are all integrated within the following diagram:
+
+![Projects relations diagram](documentation/imgs/diagram.png)
+
+To know more about the solution visit:
+
+- [General usage and file structure of React FronEnd](documentation/react)
+- [General usage and file structure of Java Backend](documentation/java)
+- [General usage and file structure of Python Backend](documentation/python)
+- [Integration with inverters and data cycle](documentation/inverters)
