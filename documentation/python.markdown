@@ -13,7 +13,19 @@ The Python Backend project provides functionality for accessing inverter data, p
 -   **OpenAPI:** -   Comprehensive API documentation is automatically generated based on the project's code. This documentation clarifies the data accepted and returned by the API.
 -   **SQLAlchemy:** An Object-Relational Mapper (ORM), is used to simplify interaction with the PostgreSQL database. It allows for the definition of models representing tables and relationships. 
 
-
+### Project Structure
+```
+app/
+├── db/           # Database-related components
+│  ├── models.py  # ORM models for database interaction
+│  └── utils.py   # Database access functions (data layer logic)
+├── endpoints/   # API endpoints and request handling
+│  └── solar/     # Endpoints specific to solar data management
+├── core/          # Business logic and data processing
+├── logs/          # Log files
+├── main.py        # Application entry point
+└── database.ini  # Configuration file for PostgreSQL connection details
+```
 ### Main Project Components
 
 -   **App**
@@ -57,18 +69,17 @@ app/
 ### Notebooks
 #### Anomaly Detection
 Machine Learning for Solar Panel Performance Anomaly Detection
-1.  **Data Preprocessing (Data_Preprocessing.ipynb):**    
+1.  **Data Preprocessing:**    
     -   This notebook focuses on preparing the raw solar panel production data for further analysis and model training.
 
-2.  **Feature Engineering (Feature_Engineering.ipynb):**    
+2.  **Feature Engineering:**    
     -   This notebook builds upon the preprocessed data and focuses on crafting informative features that can be used by the machine learning model to identify anomalies.
  
-3.  **Model Training (Model_training.ipynb):**    
+3.  **Model Training:**    
     -   This notebook utilizes the engineered features to train and evaluate different models in the task of anomaly detection.
-
 
 #### NLP
 This section outlines the Natural Language Processing (NLP) pipeline for streamlining client onboarding by automatically extracting key information from solar installation reports using a Named Entity Recognition (NER) model.
-1.  **Data Preprocessing (Data_Preprocessing.ipynb):**    
+1.  **Data Preprocessing:**    
     -   This notebook focuses on preparing the raw solar installation reports for efficient NLP processing. 
 
