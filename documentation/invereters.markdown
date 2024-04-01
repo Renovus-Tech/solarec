@@ -3,9 +3,8 @@ layout: default
 permalink: /documentation/inverters/
 ---
 # Integration with inverters and data cycle
-
 The inverters are a key part of the solution, are the ones that provide the information required, but also are complex, since all of them can define their own API.
-In order to solve the problem to communicate with multiple inveretrs brands, the Solarec code as have an interface ```tech.renovus.solarec.inverters.common.InverterService``` that defines the methods that any inverter that Solrec connects to must implements. Also, since each inverter has its own parameters and requeriments, a series of metadata values will be available at the client, location and generator (inverter) level.
+In order to solve the problem to communicate with multiple inverters brands, the Solarec code as have an interface ```tech.renovus.solarec.inverters.common.InverterService``` that defines the methods that any inverter that Solrec connects to must implements. Also, since each inverter has its own parameters and requeriments, a series of metadata values will be available at the client, location and generator (inverter) level.
 
 ## Integration with inverters
 Each inverter will be defined as a ```DataDefinitionVo``` and will contain the ```package + class``` that implements the connection to the inverter, plus a series of parameters that must be set in order to connect.

@@ -25,3 +25,4 @@ To know more about the solution visit:
 - [General usage and file structure of Java Backend](documentation/java)
 - [General usage and file structure of Python Backend](documentation/python)
 - [Integration with inverters and data cycle](documentation/inverters)
+- [Integration with data grid information and data cycle](documentation/grid)
