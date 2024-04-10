@@ -24,5 +24,14 @@ To know more about the solution visit:
 - [General usage and file structure of React FronEnd](documentation/react)
 - [General usage and file structure of Java Backend](documentation/java)
 - [General usage and file structure of Python Backend](documentation/python)
+- [General usage and file structure of Database](documentation/database)
 - [Integration with inverters and data cycle](documentation/inverters)
 - [Integration with data grid information and data cycle](documentation/grid)
+
+If you want to collaborate with the solution, you can read:
+
+- [Next features to develop](documentation/next)
+- [Getting started in React](documentation/starting/react)
+- [Getting started in Java](documentation/starting/java)
+- [Getting started in Python](documentation/starting/python)
+- [Getting statted in Database](documentation/starting/database)
