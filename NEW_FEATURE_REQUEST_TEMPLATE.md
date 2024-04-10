@@ -46,4 +46,4 @@
 
 **Note:** Please ensure that you have checked for existing feature requests or discussions related to this feature before submitting. Duplicate requests may be closed to keep discussions consolidated.
 
-Thank you for contributing to [Project Name]!
+Thank you for contributing to **Renovus Solarec**!
