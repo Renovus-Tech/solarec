@@ -8,6 +8,12 @@
 
 [Explain the use case or scenario where this feature would be beneficial. Include any relevant details about how you envision using the feature.]
 
+### Use case xxx
+- **Actor**: 
+- **Description**: 
+- **Precondition**:
+- **Basic flow**:
+
 ## Expected Behavior
 
 [Describe how you expect the feature to behave when implemented. Include any specific functionalities or outcomes.]
@@ -40,4 +46,4 @@
 
 **Note:** Please ensure that you have checked for existing feature requests or discussions related to this feature before submitting. Duplicate requests may be closed to keep discussions consolidated.
 
-Thank you for contributing to [Project Name]!
+Thank you for contributing to **Renovus Solarec**!
