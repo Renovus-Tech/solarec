@@ -24,10 +24,10 @@ To use the language translations on your pages you need to:
 
 ## Add new language
  
- - Create a new folder on <code>locales/</code> named as the abbreviation you want to use for the new language.
- - Copy into that folder the file <code>locales/EN/translation.json</code>
- - Change the values on the json for the new translations.
- - Add the new language on the <code>i18n</code> initialization on <code>helpers/i18n.js</code>
+1. Create a new folder on <code>locales/</code> named as the abbreviation you want to use for the new language.
+2. Copy into that folder the file <code>locales/EN/translation.json</code>
+3. Change the values on the json for the new translations.
+4. Add the new language on the <code>i18n</code> initialization on <code>helpers/i18n.js</code>
  
  ## Calls to API
  
