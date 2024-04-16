@@ -14,6 +14,8 @@ The Python Backend project provides functionality for accessing inverter data, p
 -   **SQLAlchemy:** An Object-Relational Mapper (ORM), is used to simplify interaction with the PostgreSQL database. It allows for the definition of models representing tables and relationships. 
 
 ### Project Structure
+
+![Overview](https://github.com/Renovus-Tech/solarec/blob/main/documentation/imgs/python_diagram.png?raw=true)
 ```
 app/
 ├── db/           # Database-related components
