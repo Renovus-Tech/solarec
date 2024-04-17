@@ -1,3 +1,7 @@
+---
+layout: default
+permalink: /documentation/starting/python
+---
 # Getting started with Calculations API development
 
 - [Project overview](https://renovus-tech.github.io/solarec/documentation/python/)

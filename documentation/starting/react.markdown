@@ -1,3 +1,7 @@
+---
+layout: default
+permalink: /documentation/starting/react
+---
 # Getting started with React Web App
 
 
