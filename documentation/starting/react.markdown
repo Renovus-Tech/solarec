@@ -51,29 +51,29 @@ All calls to the SolaREC API are handled by the function <code>DataAPI</code> de
 If you need to use Cookies for your new page, you can import the functions <code>getCookie</code> and/or <code>setCookie</code> defined on <code>helpers/sessionCookie.js</code>.
 
 
- ## Other useful information
+## Other useful information
  
- ### Helpers
+### Helpers
  
- If you need helper functions which might be used across the app, you can implement them on the <code>file helpers/utils.js</code>
+If you need helper functions which might be used across the app, you can implement them on the <code>file helpers/utils.js</code>
  
- ### Components
+### Components
  
- To build new components to use across your pages, add them to <code>components/</code>
+To build new components to use across your pages, add them to <code>components/</code>
  
- But first, see if you can find what you need on CoreUI's components list. Take a look at the documentation on https://coreui.io/react/docs/
+But first, see if you can find what you need on CoreUI's components list. Take a look at the documentation on https://coreui.io/react/docs/
  
- ### Style
+### Style
  
- On the file <code>scss/_variables.scss</code> you can modify global variables that can help you change the main style of the app. Take a look at https://coreui.io/react/docs/customize/options/.
+On the file <code>scss/_variables.scss</code> you can modify global variables that can help you change the main style of the app. Take a look at https://coreui.io/react/docs/customize/options/.
  
- If you need further customizations add your code on <code>scss/_custom.scss</code>
+If you need further customizations add your code on <code>scss/_custom.scss</code>
  
  
- ## Unit test
+## Unit test
  
- For unit testing the app uses **Jest**. 
+For unit testing the app uses **Jest**. 
  
- If you want to create unit tests for your code just create a file on the same directory as the one you are testing with the same name, and type <code>.test.js</code>. So, if I'm testing <code>example.js</code>, I need to create <code>example.test.js</code>.
+If you want to create unit tests for your code just create a file on the same directory as the one you are testing with the same name, and type <code>.test.js</code>. So, if I'm testing <code>example.js</code>, I need to create <code>example.test.js</code>.
  
- To understand how to build your testing files start here: https://jestjs.io/docs/tutorial-react
+To understand how to build your testing files start here: https://jestjs.io/docs/tutorial-react
