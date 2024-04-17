@@ -33,7 +33,7 @@ To use the language translations on your pages you need to:
 3. Change the values on the json for the new translations.
 4. Add the new language on the <code>i18n</code> initialization on <code>helpers/i18n.js</code>
  
- ## Calls to API
+## Calls to API
  
 All calls to the SolaREC API are handled by the function <code>DataAPI</code> defined on <code>helpers/DataAPI.js</code>.
 <br>Use the function as follows:
