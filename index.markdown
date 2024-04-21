@@ -21,6 +21,7 @@ The previous projects are all integrated within the following diagram:
 
 To know more about the solution visit:
 
+- [Proyect charter](documentation/charter)
 - [General usage and file structure of React FronEnd](documentation/react)
 - [General usage and file structure of Java Backend](documentation/java)
 - [General usage and file structure of Python Backend](documentation/python)
