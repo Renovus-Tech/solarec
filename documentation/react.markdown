@@ -91,6 +91,7 @@ Attributes used across the app to filter de information needed.
 - day
 - week
 - month
+- year
 
 
 ## User settings
@@ -191,10 +192,12 @@ Get yesterday  alerts.\
 Authenticate user.\
 **Endpoint:** POST https://{{HOST}}:{{PORT}}/api3/rest/security/authenticate\
 **Body example:**
+```
 {
     email: ‘someUser’,
     password: ‘somePassword’,
 }
+```
 
 #### User settings
 Change user settings\
