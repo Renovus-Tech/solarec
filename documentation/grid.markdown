@@ -11,5 +11,8 @@ Currently one service for data grid is supported and must implement the interfac
 Every 23 hours, a schedule will iterate through the different country clients and call the corresponding service.
 
 Currently 2 services are available:
-- ```tech.renovus.solarec.grid.ember.EmberDataGridService```
-- ```tech.renovus.solarec.grid.electricMaps.ElectricMapsService```
+- `tech.renovus.solarec.grid.ember.EmberDataGridService`
+- `tech.renovus.solarec.grid.electricMaps.ElectricMapsService`
+
+The data that needs to be retrieve is:
+- Emissions Intensity CO2 per KWH (`TYPE_COUNTRY_EMISSIONS_INTENSITY_GCO2_PER_KWH = 901`)
