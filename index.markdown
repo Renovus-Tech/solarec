@@ -28,6 +28,7 @@ To know more about the solution visit:
 - [General usage and file structure of Database](documentation/database)
 - [Integration with inverters and data cycle](documentation/inverters)
 - [Integration with data grid information and data cycle](documentation/grid)
+- [Integration with weather information and data cycle](documentation/weather)
 
 If you want to collaborate with the solution, you can read:
 
