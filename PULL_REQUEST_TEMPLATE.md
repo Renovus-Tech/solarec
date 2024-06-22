@@ -20,6 +20,7 @@ Closes #[Issue Number]
 - [ ] All existing tests pass.
 - [ ] The changes generate no new warnings.
 - [ ] I have updated the documentation accordingly.
+- [ ] I have signed the [Contributor License Agreement (CLA)](https://cla-assistant.io/your-repo-url).
 
 **Screenshots (if applicable):**
 
