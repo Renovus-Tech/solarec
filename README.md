@@ -1,3 +1,5 @@
+[![CLA assistant](https://cla-assistant.io/readme/badge/Renovus-Tech/solarec)](https://cla-assistant.io/Renovus-Tech/solarec)
+
 # Renovus Solarec
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/YRrv0dtq210/0.jpg)](http://www.youtube.com/watch?v=YRrv0dtq210 "Renovus (Uruguay) - AI for Carbon Offsets and Sustainable Energy")
 
