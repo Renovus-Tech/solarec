@@ -73,6 +73,14 @@ Depending on you expertice and preference you can contribute in one or many of r
 
 Before contributing, please review our [Code of Conduct](CODE_OF_CONDUCT.md). We strive to maintain a positive and inclusive community.
 
+## Contributor License Agreement (CLA)
+
+Before you make a contribution, you need to sign our Contributor License Agreement (CLA). This ensures that we have the legal right to use your contribution.
+
+- Please read and sign our [Contributor License Agreement (CLA)](CLA.md).
+- If you are making your first contribution, you will be prompted to sign the CLA when you open a pull request.
+
+
 ## Need Help?
 
 If you have questions or need assistance, feel free to reach out in our [Discussions](link-to-discussions) or create an issue in the [Issue Tracker](link-to-issue-tracker).
