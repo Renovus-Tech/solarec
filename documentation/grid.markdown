@@ -14,5 +14,7 @@ Currently 2 services are available:
 - `tech.renovus.solarec.grid.ember.EmberDataGridService`
 - `tech.renovus.solarec.grid.electricMaps.ElectricMapsService`
 
+In order to determinate the service to be use, you need to the set the `solarec.service.grid.provider` property in the `application.properties` files.
+
 The data that needs to be retrieve is:
 - Emissions Intensity CO2 per KWH (`DataTypeVo.TYPE_COUNTRY_EMISSIONS_INTENSITY_GCO2_PER_KWH = 901`)

@@ -10,6 +10,9 @@ Currently one service for weather is supported and must implement the interface 
 
 Currently 1 services is available
 - `tech.renovus.solarec.weahter.meteoblue.MeteoblueWeatherServiceImpl`
+- `tech.renovus.solarec.weahter.openmeteo.OpenMeteoWeatherServiceImpl`
+
+In order to determinate the service to be use, you need to the set the `solarec.service.weather.provider` property in the `application.properties` files.
 
 The data that needs to be retrieve is:
 - Temperature (`DataTypeVo.TYPE_SOLAR_STATION_AMBIENT_TEMPERATURE = 503`)
