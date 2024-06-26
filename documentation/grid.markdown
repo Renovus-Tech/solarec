@@ -18,3 +18,9 @@ In order to determinate the service to be use, you need to the set the `solarec.
 
 The data that needs to be retrieve is:
 - Emissions Intensity CO2 per KWH (`DataTypeVo.TYPE_COUNTRY_EMISSIONS_INTENSITY_GCO2_PER_KWH = 901`)
+
+##Data usage
+| Description                                      | Code   | overview | power_curve | performance | climate | alerts | inverter | Data Grid | Weather | Certificate |
+|--------------------------------------------------|--------|----------|-------------|-------------|---------|--------|----------|-----------|---------|-------------|
+| TYPE_COUNTRY_EMISSIONS_INTENSITY_GCO2_PER_KWH    | 901    |          |             |             |         |        |          |           |         | added       |
+

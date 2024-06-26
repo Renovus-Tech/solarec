@@ -58,3 +58,16 @@ When coding the inverter service, the following aspects need to be consider in t
 ## Testing the inverter service
 - Since most data is confidential, code it in a way the different parameters required are retrieve as a system property
 - First call all the required endpoints manually and finally call the service retrieveData method to test them all together.
+
+## Data usage
+
+| Description                                      | Code   | overview | power_curve | performance | climate | alerts | inverter | Data Grid | Weather | Certificate |
+|--------------------------------------------------|--------|----------|-------------|-------------|---------|--------|----------|-----------|---------|-------------|
+| TYPE_LOCATION_SOLAR_OUTPUT_CAPACITY              | 500    |          |             |             |         |        |          |           |         | added       |
+| TYPE_SOLAR_INVERTER_DC_POWER                     | 501    | use      | use         | use         | use     | use    | added    |           |         |             |
+| TYPE_SOLAR_INVERTER_AC_POWER                     | 502    | use      | use         | use         | use     | use    | added    |           |         |             |
+| TYPE_SOLAR_STATION_AMBIENT_TEMPERATURE           | 503    | use      |             | use         |         | added  |          |           | added   |             |
+| TYPE_SOLAR_STATION_MODULE_TEMPERATURE            | 504    | use      |             | use         |         | added  |          |           |         |             |
+| TYPE_SOLAR_STATION_IRRADIATION                   | 505    | use      | use         | use         | use     | use    | added    |           | added   |             |
+| TYPE_SOLAR_STATION_TOTAL_CLOUD_COVER             | 506    |          |             |             |         |        |          |           | added   |             |
+| TYPE_SOLAR_STATION_PRECIPITATION                 | 507    |          |             |             |         |        |          |           | added   |             |
