@@ -29,6 +29,7 @@ To know more about the solution visit:
 - [Integration with inverters and data cycle](documentation/inverters)
 - [Integration with data grid information and data cycle](documentation/grid)
 - [Integration with weather information and data cycle](documentation/weather)
+- [Report generation](documentation/report)
 
 If you want to collaborate with the solution, you can read:
 
