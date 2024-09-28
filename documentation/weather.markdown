@@ -8,9 +8,10 @@ The information for the weather is a key part of the solution, it is use to calc
 ## Integration with weather
 Currently one service for weather is supported and must implement the interface `tech.renovus.solarec.weather.WeatherService` and implement the `retrieveWeatherData` method. The method will be call for each inverter service that might required additional information.
 
-Currently 1 services is available
-- `tech.renovus.solarec.weahter.meteoblue.MeteoblueWeatherServiceImpl`
-- `tech.renovus.solarec.weahter.openmeteo.OpenMeteoWeatherServiceImpl`
+Currently 3 services is available
+- `tech.renovus.solarec.weahter.disabled.DisabledWeatherServiceImpl` (solarec.service.weather.provider = disabled)
+- `tech.renovus.solarec.weahter.meteoblue.MeteoblueWeatherServiceImpl` (solarec.service.weather.provider = meteoblue)
+- `tech.renovus.solarec.weahter.openmeteo.OpenMeteoWeatherServiceImpl` (solarec.service.weather.provider = openmeteo)
 
 In order to determinate the service to be use, you need to the set the `solarec.service.weather.provider` property in the `application.properties` files.
 

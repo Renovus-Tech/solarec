@@ -10,9 +10,11 @@ Currently one service for data grid is supported and must implement the interfac
 
 Every 23 hours, a schedule will iterate through the different country clients and call the corresponding service.
 
-Currently 2 services are available:
-- `tech.renovus.solarec.grid.ember.EmberDataGridService`
-- `tech.renovus.solarec.grid.electricMaps.ElectricMapsService`
+Currently 4 services are available:
+- `tech.renovus.solarec.grid.disabled.DisabledDataGridService` (solarec.service.grid.provider = disabled)
+- `tech.renovus.solarec.grid.ember.EmberDataGridService` (solarec.service.grid.provider = ember)
+- `tech.renovus.solarec.grid.electricMaps.ElectricMapsService` (solarec.service.grid.provider = electricmaps)
+- `tech.renovus.solarec.certificate.irec.br.IrecBrCertificateService` (solarec.service.grid.provider = irecbr)
 
 In order to determinate the service to be use, you need to the set the `solarec.service.grid.provider` property in the `application.properties` files.
 
