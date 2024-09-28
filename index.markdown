@@ -30,6 +30,7 @@ To know more about the solution visit:
 - [Integration with data grid information and data cycle](documentation/grid)
 - [Integration with weather information and data cycle](documentation/weather)
 - [Report generation](documentation/report)
+- [Renovus Solarec forum](https://solarec.foroactivo.com/)
 
 If you want to collaborate with the solution, you can read:
 
