@@ -40,3 +40,6 @@ If you want to collaborate with the solution, you can read:
 - [Getting started in Java](documentation/starting/java)
 - [Getting started in Python](documentation/starting/python)
 - [Getting statted in Database](documentation/starting/database)
+
+How our stakholder map looks like:
+![Stakholder Mapping](documentation/imgs/stakholder.png)
