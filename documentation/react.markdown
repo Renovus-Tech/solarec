@@ -26,19 +26,18 @@ solarec-react
 │   ├── scss/            # scss styles
 │   ├── locales/         # translations files
 │   ├── views/           # application views
-│   │   └──pages/        # application pages
-│   │      ├──user/      # user pages
-│   │      ├──client/    # client pages
-│   │      ├──login/     # login and password reset pages
-│   │      ├──enery/     # energy pages
-│   │      ├──revenue/   # revenue pages
-│   │      ├──page404/   
-│   │      └──page500/   
+│   │   └── pages/        # application pages
+│   │      ├── user/      # user pages
+│   │      ├── client/    # client pages
+│   │      ├── login/     # login and password reset pages
+│   │      ├── enery/     # energy pages
+│   │      ├── revenue/   # revenue pages
+│   │      ├── page404/   
+│   │      └── page500/   
 │   ├── _nav.js          # sidebar navigation config
 │   ├── App.js
 │   ├── index.js
 │   ├── routes.js        # routes config
-│   ├── store.js         # template state example 
 │   └── store.js         # template state example 
 │
 ├── .env                 # environment variables
@@ -54,7 +53,7 @@ solarec-react
 -   **UI Kit and template:** 
 	-   **CoreUI v4:** - https://coreui.io/react/docs/getting-started/introduction/
 	-   **Free React Admin Template:** https://coreui.io/product/free-react-admin-template/
--   **Other packages dependencies:** @kurkle/color, classnames, google-map-react, js-cookie, prop-types, react-app-polyfill, react-chartjs-2, react-datepicker, react-dom, react-flags-select, react-i18next, react-router-dom, react-scripts, sass, simplebar-react, web-vitals
+-   **Other packages dependencies:** @kurkle/color, classnames, google-map-react, i18next, js-cookie, prop-types, react-app-polyfill, react-chartjs-2, react-datepicker, react-dom, react-flags-select, react-i18next, react-router-dom, react-scripts, sass, simplebar-react, web-vitals
 -   **Development packages dependencies:** @babel/preset-env, "@babel/preset-react, @testing-library/jest-dom, @testing-library/react, eslint-config-prettier, eslint-plugin-prettier, jest, jest-canvas-mock, jest-cli, jest-fetch-mock, license-compatibility-checker, prettier
 
 Other packages dependencies: @kurkle/color, classnames, google-map-react, js-cookie, prop-types, react-app-polyfill, react-chartjs-2, react-datepicker, react-dom, react-flags-select, react-i18next, react-router-dom, react-scripts, sass, simplebar-react, web-vitals
