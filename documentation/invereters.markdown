@@ -28,12 +28,12 @@ Every 24 hours, a schedule will iterate through all the generators / invereters 
 
 The data that needs to be retrieve are:
 
-- DC Power (`DataTypeVo.TYPE_SOLAR_INVERTER_DC_POWER = 501`)
-- AC Power (`DataTypeVo.TYPE_SOLAR_INVERTER_AC_POWER = 502`)
-- Ambient Temperature (`DataTypeVo.TYPE_SOLAR_STATION_AMBIENT_TEMPERATURE = 503`): if not available in the inverter, the weather service can be use to retrieve it.
-- Module Temperature (`DataTypeVo.TYPE_SOLAR_STATION_MODULE_TEMPERATURE = 504`): if not available in the inverter, the weather service can be use to retrieve it.
-- Irradiation (`DataTypeVo.TYPE_SOLAR_STATION_IRRADIATION = 505`): if not available in the inverter, the weather service can be use to retrieve it.
-- Total production (`DataTypeVo.TYPE_LOCATION_SOLAR_OUTPUT_CAPACITY = 500`): in KW, can be calculated as the sum of the AC Power of all inverters for that period.
+- DC Power Kw/h (`DataTypeVo.TYPE_SOLAR_INVERTER_DC_POWER = 501`)
+- AC Power Kw/h (`DataTypeVo.TYPE_SOLAR_INVERTER_AC_POWER = 502`)
+- Ambient Temperature °C (`DataTypeVo.TYPE_SOLAR_STATION_AMBIENT_TEMPERATURE = 503`): if not available in the inverter, the weather service can be use to retrieve it.
+- Module Temperature °C (`DataTypeVo.TYPE_SOLAR_STATION_MODULE_TEMPERATURE = 504`): if not available in the inverter, the weather service can be use to retrieve it.
+- Irradiation W/m2 (`DataTypeVo.TYPE_SOLAR_STATION_IRRADIATION = 505`): if not available in the inverter, the weather service can be use to retrieve it.
+- Total production mm (`DataTypeVo.TYPE_LOCATION_SOLAR_OUTPUT_CAPACITY = 500`): in KW, can be calculated as the sum of the AC Power of all inverters for that period.
 
 Previous data need to stored within a 15 minutes frequency.
 
@@ -41,11 +41,16 @@ Previous data need to stored within a 15 minutes frequency.
 As parte of Solarec opensource code, the InverterService for the following brand are provided as example of code for the data cycle:
 
 - Aiswei
+- Enphase
 - Fimer
 - Fornius
+- Growat
+- Huawei
 - SAM
 - Sofar
 - SolarEdge
+- Solarman
+- Solis
 
 ## Inverter service
 When coding the inverter service, the following aspects need to be consider in the code:
@@ -61,13 +66,14 @@ When coding the inverter service, the following aspects need to be consider in t
 
 ## Data usage
 
-| Description                                      | Code   | overview | power_curve | performance | climate | alerts | inverter | Data Grid | Weather | Certificate |
-|--------------------------------------------------|--------|----------|-------------|-------------|---------|--------|----------|-----------|---------|-------------|
-| TYPE_LOCATION_SOLAR_OUTPUT_CAPACITY              | 500    |          |             |             |         |        |          |           |         | added       |
-| TYPE_SOLAR_INVERTER_DC_POWER                     | 501    | use      | use         | use         | use     | use    | added    |           |         |             |
-| TYPE_SOLAR_INVERTER_AC_POWER                     | 502    | use      | use         | use         | use     | use    | added    |           |         |             |
-| TYPE_SOLAR_STATION_AMBIENT_TEMPERATURE           | 503    | use      |             | use         |         | added  |          |           | added   |             |
-| TYPE_SOLAR_STATION_MODULE_TEMPERATURE            | 504    | use      |             | use         |         | added  |          |           |         |             |
-| TYPE_SOLAR_STATION_IRRADIATION                   | 505    | use      | use         | use         | use     | use    | added    |           | added   |             |
-| TYPE_SOLAR_STATION_TOTAL_CLOUD_COVER             | 506    |          |             |             |         |        |          |           | added   |             |
-| TYPE_SOLAR_STATION_PRECIPITATION                 | 507    |          |             |             |         |        |          |           | added   |             |
+| Description                                      | Code   | overview | power_curve | performance | climate | anomaly_detection | alerts | inverter | Data Grid | Weather |
+|--------------------------------------------------|--------|----------|-------------|-------------|---------|-------------------|--------|----------|-----------|---------|
+| TYPE_LOCATION_SOLAR_OUTPUT_CAPACITY              | 500    |          |             |             |         |                   |        |          |           |         |
+| TYPE_SOLAR_INVERTER_DC_POWER                     | 501    | use      | use         | use         | use     |                   | use    | added    |           |         |
+| TYPE_SOLAR_INVERTER_AC_POWER                     | 502    | use      | use         | use         | use     |                   | use    | added    |           |         |
+| TYPE_SOLAR_STATION_AMBIENT_TEMPERATURE           | 503    | use      |             | use         |         |                   | added  |          |           | added   |
+| TYPE_SOLAR_STATION_MODULE_TEMPERATURE            | 504    | use      |             | use         |         |                   | added  |          |           |         |
+| TYPE_SOLAR_STATION_IRRADIATION                   | 505    | use      | use         | use         | use     |                   | use    | added    |           | added   |
+| TYPE_SOLAR_STATION_TOTAL_CLOUD_COVER             | 506    |          |             |             |         |                   |        |          |           | added   |
+| TYPE_SOLAR_STATION_PRECIPITATION                 | 507    |          |             |             |         |                   |        |          |           | added   |
+| TYPE_SOLAR_INVERTER_AC_POWER_PREDUCTIOn          | 508    |          |             |             | use     | added             | use    |          |           | added   |

@@ -16,16 +16,17 @@ Currently 3 services is available
 In order to determinate the service to be use, you need to the set the `solarec.service.weather.provider` property in the `application.properties` files.
 
 The data that needs to be retrieve are:
-- Temperature (`DataTypeVo.TYPE_SOLAR_STATION_AMBIENT_TEMPERATURE = 503`)
-- Irradiation (`DataTypeVo.TYPE_SOLAR_STATION_IRRADIATION = 505`)
-- Cloud cover (`DataTypeVo.TYPE_SOLAR_STATION_TOTAL_CLOUD_COVER	= 506`)
-- Precipitation (`DataTypeVo.TYPE_SOLAR_STATION_PRECIPITATION	= 507`)
+- Temperature °C (`DataTypeVo.TYPE_SOLAR_STATION_AMBIENT_TEMPERATURE = 503`)
+- Irradiation W/m2 (`DataTypeVo.TYPE_SOLAR_STATION_IRRADIATION = 505`)
+- Cloud cover % (`DataTypeVo.TYPE_SOLAR_STATION_TOTAL_CLOUD_COVER	= 506`)
+- Precipitation ,, (`DataTypeVo.TYPE_SOLAR_STATION_PRECIPITATION	= 507`)
 
 ##Data usage
-| Description                                      | Code   | overview | power_curve | performance | climate | alerts | inverter | Data Grid | Weather | Certificate |
-|--------------------------------------------------|--------|----------|-------------|-------------|---------|--------|----------|-----------|---------|-------------|
-| TYPE_SOLAR_STATION_AMBIENT_TEMPERATURE           | 503    | use      |             | use         |         | added  |          |           | added   |             |
-| TYPE_SOLAR_STATION_MODULE_TEMPERATURE            | 504    | use      |             | use         |         | added  |          |           |         |             |
-| TYPE_SOLAR_STATION_IRRADIATION                   | 505    | use      | use         | use         | use     | use    | added    |           | added   |             |
-| TYPE_SOLAR_STATION_TOTAL_CLOUD_COVER             | 506    |          |             |             |         |        |          |           | added   |             |
-| TYPE_SOLAR_STATION_PRECIPITATION                 | 507    |          |             |             |         |        |          |           | added   |             |
+
+| Description                                      | Code   | overview | power_curve | performance | climate | anomaly_detection | alerts | inverter | Data Grid | Weather | Certificate |
+|--------------------------------------------------|--------|----------|-------------|-------------|---------|-------------------|--------|----------|-----------|---------|-------------|
+| TYPE_SOLAR_STATION_AMBIENT_TEMPERATURE           | 503    | use      |             |             | use     |                   |        | added    |           | added   |             |
+| TYPE_SOLAR_STATION_MODULE_TEMPERATURE            | 504    | use      |             |             | use     |                   |        | added    |           |         |             |
+| TYPE_SOLAR_STATION_IRRADIATION                   | 505    | use      | use         | use         | use     |                   | use    | added    |           | added   |             |
+| TYPE_SOLAR_STATION_TOTAL_CLOUD_COVER             | 506    |          |             |             |         |                   |        |          |           | added   |             |
+| TYPE_SOLAR_STATION_PRECIPITATION                 | 507    |          |             |             |         |                   |        |          |           | added   |             |
