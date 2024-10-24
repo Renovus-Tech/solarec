@@ -32,7 +32,7 @@ The data that needs to be retrieve are:
 - AC Power Kw/h (`DataTypeVo.TYPE_SOLAR_INVERTER_AC_POWER = 502`)
 - Ambient Temperature °C (`DataTypeVo.TYPE_SOLAR_STATION_AMBIENT_TEMPERATURE = 503`): if not available in the inverter, the weather service can be use to retrieve it.
 - Module Temperature °C (`DataTypeVo.TYPE_SOLAR_STATION_MODULE_TEMPERATURE = 504`): if not available in the inverter, the weather service can be use to retrieve it.
-- Irradiation W/m2 (`DataTypeVo.TYPE_SOLAR_STATION_IRRADIATION = 505`): if not available in the inverter, the weather service can be use to retrieve it.
+- Irradiation Kwh/m2 (`DataTypeVo.TYPE_SOLAR_STATION_IRRADIATION = 505`): if not available in the inverter, the weather service can be use to retrieve it.
 - Total production mm (`DataTypeVo.TYPE_LOCATION_SOLAR_OUTPUT_CAPACITY = 500`): in KW, can be calculated as the sum of the AC Power of all inverters for that period.
 
 Previous data need to stored within a 15 minutes frequency.

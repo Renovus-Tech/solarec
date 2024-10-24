@@ -17,7 +17,7 @@ In order to determinate the service to be use, you need to the set the `solarec.
 
 The data that needs to be retrieve are:
 - Temperature °C (`DataTypeVo.TYPE_SOLAR_STATION_AMBIENT_TEMPERATURE = 503`)
-- Irradiation W/m2 (`DataTypeVo.TYPE_SOLAR_STATION_IRRADIATION = 505`)
+- Irradiation Kwh/m2 (`DataTypeVo.TYPE_SOLAR_STATION_IRRADIATION = 505`)
 - Cloud cover % (`DataTypeVo.TYPE_SOLAR_STATION_TOTAL_CLOUD_COVER	= 506`)
 - Precipitation ,, (`DataTypeVo.TYPE_SOLAR_STATION_PRECIPITATION	= 507`)
 
